@@ -804,7 +804,6 @@ template {
   padding: 98px 0 87px 0;
   background-image: url(../image/newsletter-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -882,6 +881,10 @@ template {
   background-color: #EC1F46;
   color: #fff;
   cursor: pointer;
+}
+
+.parallax-window {
+  background: transparent;
 }
 
 @media (max-width: 1200px) {
