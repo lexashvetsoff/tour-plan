@@ -28,12 +28,12 @@ try {
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
-    $mail->Host       = 'smtp.beget.com'; // SMTP сервера вашей почты
-    $mail->Username   = 'as_portfolio@as-portfolio.ru'; // Логин на почте
-    $mail->Password   = 'Lexa2010'; // Пароль на почте
+    $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
+    $mail->Username   = 'tourplan.form@gmail.com'; // Логин на почте
+    $mail->Password   = 'Qwerty2021'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('as_portfolio@as-portfolio.ru', 'Алексей'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('tourplan.form@gmail.com', 'Tour Plan'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('lexa.shvetsoff@yandex.ru');
